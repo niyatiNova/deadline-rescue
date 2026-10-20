@@ -1,16 +1,93 @@
-# React + Vite
+# 🎯 Deadline Rescue
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive task management application built with **React, Vite, and Tailwind CSS** to help students organize academic deadlines, prioritize assignments, and track their workload.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Task Management:** Add, edit, complete, and delete tasks.
+- **Priority Levels:** Categorize tasks as High, Medium, or Low priority with color-coded badges.
+- **Search Tasks:** Search assignments by title or subject.
+- **Filter Tasks:** Filter tasks by status and priority.
+- **Sort Tasks:** Organize tasks by due date or priority.
+- **Workload Summary:** View active tasks, completed tasks, remaining hours, and urgent tasks.
+- **Notes:** Add additional information to individual tasks.
+- **Local Storage:** Save tasks in the browser so they persist after refreshing the page.
+- **Responsive Design:** Use the application on desktop, tablet, and mobile screens.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- Browser Local Storage
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Install [Node.js](https://nodejs.org/) and npm.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/niyatiNova/deadline-rescue.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd deadline-rescue
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## 📦 Build for Production
+
+Run the following command to create a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 💾 Data Storage
+
+Tasks are stored in the browser's Local Storage. They remain available after refreshing the page in the same browser, but they are not automatically synchronized across different devices or browsers.
+
+## 🌱 Future Improvements
+
+- Notifications for approaching deadlines
+- Calendar view for assignments
+- Backend integration and user authentication
+- Cloud synchronization across devices
+
+## 👩‍💻 Author
+
+**Niyati Ahuja**
+
+- GitHub: [niyatiNova](https://github.com/niyatiNova)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/niyati-ahuja-b1b556389)
+
+---
+
+Built with ❤️ to make academic planning easier.
